@@ -1,0 +1,53 @@
+input {
+  height: 35px;
+}
+
+#template {
+  display: none;
+}
+
+.fa-trash {
+  margin-right: 20px;
+}
+
+.fa-pencil{
+  margin-left: 10px;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+      background-color: #565252;
+}
+
+td {
+  border-radius: 2px;
+}
+
+tr {
+  border-radius: 8px;
+}
+
+.newName, .newEmail, .newPhone, .newAddress {
+  width: 35vw;
+}
+
+.modal-content {
+  margin-right: 15vw;
+  margin-left: auto;
+  text-align: center;
+  width:50vw;
+}
+
+.modal {
+  margin-right: 90px;
+  text-align:center;
+}
+
+input {
+  border: 2px solid black;
+  border-radius: 8px;
+  height: 40px;
+  margin-bottom: 15px;
+  background-color: grey;
+  color: black;
+}
+
